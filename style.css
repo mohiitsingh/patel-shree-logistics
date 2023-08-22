@@ -161,7 +161,7 @@ body {
   }
   
   .background-image {
-    background-image: url('https://framerusercontent.com/images/ip81kvRBCHfW06KXAIiSEKmPkE.png?scale-down-to=1024');
+    background-image: url('./assets/pngwing_com_\(1\)-bhozWi2XE-transformed\ 1.png');
     background-size: cover;
     width: 55%;
     height: 500px;
@@ -211,7 +211,7 @@ body {
     background-color: #e25539;
     /* border: 2px solid #000033; */
     color: #000033;
-    font-weight: 800;
+    font-weight: 500;
     transition: background-color 0.7s ease, color 0.7s ease;
   }
   
@@ -223,7 +223,7 @@ body {
   .get-quote {
     background-color: transparent;
     border: 1px dashed #000033;
-    font-weight: 800;
+    font-weight: 500;
     color: #000033;
     transition: background-color 0.7s ease, color 0.7s ease;
   }
@@ -537,7 +537,8 @@ body {
     /* Align items vertically */
     /* padding: 40px 0; */
     background-color: #f2f2f2;
-    height: 650px;
+    height: 520px;
+    margin: 1.5rem 0;
   }
   
   
@@ -565,25 +566,19 @@ body {
     font-weight: 100;
     margin-top: 20px;
     color: rgba(226, 85, 57, 1);
-  
+    font-family: 'Jost', sans-serif;
   }
   
   .about-text p {
     font-size: 16px;
-    line-height: 1.2em;
     margin-top: 10px;
   }
   
   
   .about-text ul {
     list-style-type: circle;
-    /* Use circle for bullet points */
-    margin: 20px 0;
-    padding-left: 20px;
-    /* Add some left padding to the list items */
+    margin: 15px 0;
   }
-  
-  
   
   .about-text li {
     font-size: 16px;
@@ -591,11 +586,11 @@ body {
   }
   
   .about-photo {
-    flex: 1;
-    margin-left: 100px;
+    /* flex: 1; */
+    /* margin-left: 100px; */
     margin-top: 20px;
     border: 2px dashed #e25539;
-    max-width: 500px;
+    max-width: 900px;
     /* Set a smaller max-width for the image */
   
   }
@@ -726,7 +721,8 @@ body {
   .popular-trucks {
     text-align: center;
     padding: 40px 0;
-    background-color: #e1e5ea;
+    background-color: #FCECE9;
+    margin-top: 1.2rem;
   }
   
   .centered-heading {
@@ -738,23 +734,24 @@ body {
     border-bottom: 1px dashed #a5b0c0;
     width: 300px;
     margin: 0 auto;
-  
   }
   
   
   .truck-card {
-    display: inline-block;
+    display: inline-flex;
     margin: 20px;
     position: relative;
     border: 1px dashed #a5b0c0;
     overflow: hidden;
+    width: 248px;
+    height: 248px;
   }
   
   .truck-card img {
-    display: block;
-    width: 230px;
-    height: 220px;
-    object-fit: cover;
+    /* display: block; */
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
     transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
   }
   
@@ -771,6 +768,7 @@ body {
     right: 0;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.7);
+    /* background-color: #e25539; */
     color: white;
     font-size: 16px;
     text-align: center;
@@ -814,8 +812,7 @@ body {
   }
   
   .wrapper {
-    max-width: 75%;
-  
+    max-width: 80%;
     /* padding: 40px; */
     margin: auto;
     margin-top: 30px;
@@ -836,12 +833,18 @@ body {
     font-weight: 700;
     text-align: center;
   }
+
+  .wrapper-para{
+    width: 70%;
+    margin: 0 auto;
+  }
   
   .wrapper p {
     font-size: 16px;
     padding-top: 30px;
     padding-bottom: 40px;
     color: rgba(135, 149, 171, 1);
+    text-align: center;
   }
   
   .accordion {
@@ -969,15 +972,13 @@ body {
     padding-left: 50px;
     padding-right: 50px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 0px;
     margin: 0px;
-    /* height: 300px; */
   }
   
   .footer-section {
-    max-width: 300px;
+    width: 250px;
     margin: 10px;
     text-align: left;
     padding: 10px;
