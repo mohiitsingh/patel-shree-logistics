@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patel Shree Logistics</title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contact-container">
+        <div class="left-contact">
+        <div class="mail-div">
+          <i class="fas fa-envelope"></i><a href="mailto:patelsri@gmail.com" class="email">patelsri@gmail.com</a>
+        </div>
+        <div class="contact-div">
+          <i class="fas fa-phone"></i><a href="tel:+9167290200927" class="contact">+91 67290200927</a>
+        </div>
+      </div>
+        <div class="social-media-contact">
+          <a href="#" class="facebook-icon"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="instagram-icon"><i class="fab fa-instagram"></i></a>
+           </div>
+      </div>
+    </div>
+
+    <div class="navbar">
+      <div class="company-name">Patel Shree Logistics</div>
+      <div class="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+      </div>
+      <ul class="nav-links">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">OUR SERVICES</a></li>
+          <li><a href="#">OUR FLEET</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">CONTACT US</a></li>
+      </ul>
+      <button class="quote-button">GET A QUOTE</button>
+
+      <script>
+          const hamburger = document.querySelector('.hamburger');
+          const navLinks = document.querySelector('.nav-links');
+
+          hamburger.addEventListener('click', () => {
+              navLinks.classList.toggle('show');
+          });
+      </script>
+  </div>
+</body>
+</html>

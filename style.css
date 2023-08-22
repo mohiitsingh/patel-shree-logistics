@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-container {
+    background-color: #2a313c;
+    display: flex;
+    justify-content: space-between;
+    height: 1.5rem;
+
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    gap: 20px;
+}
+
+.left-contact {
+    display: flex;
+    gap: 10px
+}
+
+.mail-div,
+.contact-div {
+    display: flex;
+    align-items: center;
+}
+
+.social-media-contact {
+    padding-right: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.social-media-contact i {
+    color: rgba(226, 86, 57, 1);
+    font-size: 16px;
+    margin-right: 0.3rem;
+}
+
+.contact-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.fas {
+    color: rgba(226, 86, 57, 1);
+    font-size: 0.6 rem;
+    margin-right: 0.3rem;
+}
+
+/* ********************* NAVBAR ********************** */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.company-name {
+    font-size: 20px;
+    color: rgba(226, 86, 57, 1);
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links.show {
+    display: flex;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    /* font-weight: bold; */
+    padding-bottom: 2px;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.nav-links li a.active,
+.nav-links li a:hover {
+    /* text-decoration: underline; */
+    border-bottom: 1px solid white;
+    font-weight: bold;
+}
+
+.quote-button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px dashed white;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 140px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.quote-button:hover {
+    background-color: rgba(226, 86, 57, 1);
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+}
