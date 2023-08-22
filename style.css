@@ -24,6 +24,7 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
     gap: 20px;
+    overflow: hidden;
 }
 
 .left-contact {

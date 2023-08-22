@@ -31,6 +31,11 @@
 
 @media screen and (max-width: 768px) {
     .nav-links{
-        top: 70px;
+        top: 51px;
     }
+
+    .contact-container{
+        display: none;
+    }
+
 }
